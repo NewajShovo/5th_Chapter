@@ -10,7 +10,9 @@
 
 
 @interface BNRHypnosisView ()
+
 @property (strong, nonatomic) UIColor *circleColor;
+
 @end
 
 
@@ -26,7 +28,8 @@
     if (self)
     {
         self.backgroundColor = [ UIColor clearColor];
-        self.circleColor = [ UIColor lightGrayColor];
+        NSLog(@"Hello world");
+        self.circleColor = [ UIColor redColor];
     }
     return self;
 }
@@ -53,8 +56,9 @@
     }
     
     
-    //[[ UIColor lightGrayColor] setStroke] ;
+    [[ UIColor grayColor] setStroke] ;
     path.lineWidth = 10;
+    [self.circleColor setStroke];
     [ path stroke];
     CGRect someRect=CGRectMake(140,335, 100, 150);
     UIImage *logoImage = [ UIImage imageNamed:@"shuvo.png"];
@@ -73,7 +77,15 @@
 green:green
 blue:blue
                                            alpha:1.0];
+    NSLog(@"%@ I am here",randomColor);
     self.circleColor = randomColor;
+    //NSLOG(@"Done so far");
+}
+- (void) setCircleColor:(UIColor *)circleColor
+{
+    
+    _circleColor = circleColor;
+    [self setNeedsDisplay];
 }
 
 

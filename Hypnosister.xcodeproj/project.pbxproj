@@ -16,7 +16,6 @@
 		A001B1BD2239063A00D7A749 /* HypnosisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A001B1BC2239063A00D7A749 /* HypnosisterTests.m */; };
 		A001B1C82239063A00D7A749 /* HypnosisterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A001B1C72239063A00D7A749 /* HypnosisterUITests.m */; };
 		A001B1DA223906AB00D7A749 /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = A001B1D9223906AB00D7A749 /* BNRHypnosisView.m */; };
-		A0718E07223928040074B15F /* shuvo.png in Resources */ = {isa = PBXBuildFile; fileRef = A0718E06223928040074B15F /* shuvo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +54,6 @@
 		A001B1C92239063A00D7A749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A001B1D8223906AB00D7A749 /* BNRHypnosisView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
 		A001B1D9223906AB00D7A749 /* BNRHypnosisView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
-		A0718E06223928040074B15F /* shuvo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuvo.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +108,6 @@
 				A001B1A42239063900D7A749 /* AppDelegate.m */,
 				A001B1A62239063900D7A749 /* ViewController.h */,
 				A001B1A72239063900D7A749 /* ViewController.m */,
-				A0718E06223928040074B15F /* shuvo.png */,
 				A001B1A92239063900D7A749 /* Main.storyboard */,
 				A001B1AC2239063A00D7A749 /* Assets.xcassets */,
 				A001B1AE2239063A00D7A749 /* LaunchScreen.storyboard */,
@@ -244,7 +241,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A001B1B02239063A00D7A749 /* LaunchScreen.storyboard in Resources */,
-				A0718E07223928040074B15F /* shuvo.png in Resources */,
 				A001B1AD2239063A00D7A749 /* Assets.xcassets in Resources */,
 				A001B1AB2239063900D7A749 /* Main.storyboard in Resources */,
 			);

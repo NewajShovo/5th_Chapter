@@ -20,12 +20,12 @@
     // Override point for customization after application launch.
     
     self.window = [ [ UIWindow alloc] initWithFrame:[ [ UIScreen mainScreen] bounds]];
-    
+    self.window.backgroundColor = [ UIColor whiteColor];
     ViewController *rootController = [[ViewController alloc] init];
     
-    UINavigationController  *navController = [[UINavigationController alloc]initWithRootViewController:rootController];
+    //UINavigationController  *navController = [[UINavigationController //alloc]initWithRootViewController:rootController];
     
-    self.window.rootViewController = navController;
+    self.window.rootViewController = rootController;
     
     //[self.window makeKeyAndVisible];
     
@@ -37,11 +37,13 @@
     //CGRect firstFrame = CGRectMake(160, 450, 100, 150);
     CGRect firstFrame = self.window.bounds;
     BNRHypnosisView *firstView = [ [ BNRHypnosisView alloc] initWithFrame:firstFrame];
-    //firstView.backgroundColor= [ UIColor redColor];
-    [self.window addSubview:firstView];
-    self.window.backgroundColor = [ UIColor whiteColor];
-    
-   /*
+    //firstView.backgroundColor= [ UIColor whiteColor];
+    //firstView.userInteractionEnabled = YES;
+    [self.window.rootViewController.view addSubview:firstView];
+    self.window.backgroundColor = [ UIColor clearColor];
+    [ self.window makeKeyAndVisible];
+   
+    /*
     CGRect secondFrame = CGRectMake(170,470, 50, 50);
     BNRHypnosisView *secondView = [ [ BNRHypnosisView alloc] initWithFrame:secondFrame];
     secondView.backgroundColor = [ UIColor blueColor];
