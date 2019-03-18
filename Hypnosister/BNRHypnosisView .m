@@ -29,7 +29,7 @@
     {
         self.backgroundColor = [ UIColor clearColor];
         NSLog(@"Hello world");
-        self.circleColor = [ UIColor redColor];
+        self.circleColor = [ UIColor lightGrayColor];
     }
     return self;
 }
@@ -60,7 +60,7 @@
     path.lineWidth = 10;
     [self.circleColor setStroke];
     [ path stroke];
-    CGRect someRect=CGRectMake(140,335, 100, 150);
+    CGRect someRect=CGRectMake(2*140,2*335, 100, 150);
     UIImage *logoImage = [ UIImage imageNamed:@"shuvo.png"];
     [logoImage drawInRect:someRect];
     

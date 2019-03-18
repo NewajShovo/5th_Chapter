@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BNRHypnosisView : UIView
-//@property (nonatomic) CGRect frame;
+
 @end
 
 NS_ASSUME_NONNULL_END
